@@ -6,10 +6,11 @@ public class HelloWorldPractice : MonoBehaviour
     void Start()
     {
         Debug.Log("Hello World!!!");
-        Debug.Log("123456789");
-        Debug.Log("1¤²2¤¸3¤§4¤¡");
+        Debug.Log("1234567890");
+        Debug.Log("°¡³ª´Ù¶ó¸¶¹Ù»ç");
         Debug.Log("«¸«ã«¬«¤«â ªÈ «µ«Ä«Þ«¤«â");
         Debug.Log("êúóøûúØ«÷èÔçÝ¯");
+        Debug.Log("Hello Unity!!! ");
     }
 
 }
