@@ -5,18 +5,19 @@ public class VariablePratice : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        int number1, number2, number3;
-        number1 = 10;
-        number2 = 20;
-        number3 = 30;
 
-        Debug.Log(number1 + "," + number2 + "," + number3);
+        //[1] 변수 선언
+        int first, second, third;
 
-        int first = 10;
-        int second = 20;
-        int third = 30;
+        //[2] 변수에 값 저장
+        first = 10;
+        second = 20;
+        third = 30;
 
+        //[3] 변수 사용
         Debug.Log(first + "," + second + "," + third);
+
+        //[4] 위에서 정의된 first~third와 //[1]에서 정의된 first~third가 중복되기때문에 이대로 하면 오류가 뜨므로, [3]에서 정의된 first~third를 바꿔야 함
     }
 }
 
