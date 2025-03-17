@@ -2,6 +2,7 @@ using UnityEngine;
 
 
 /* [0] 개요 : ClassMember
+		- Debug 드래그 후 오른쪽 마우스 → 정의로 이동
 */
 
 public class ClassMember
